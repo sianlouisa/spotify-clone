@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -67,3 +67,5 @@ export const Home = () => {
     </div>
   );
 };
+
+export default Home;
